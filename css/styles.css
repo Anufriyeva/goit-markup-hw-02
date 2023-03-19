@@ -45,17 +45,21 @@ body {
 }
 .nav-link:hover,
 .nav-link:focus {
-    color: var(--accent-color);
+    color: var(--pressed-state-color);
 }
 
 .contact-link {
     color: inherit;
     line-height: calc(24 / 16);
+    letter-spacing: 0.02em;
     font-style: normal;
 }
 .contact-link:hover,
 .contact-link:focus {
-    color: var(--accent-color);
+    color: var(--pressed-state-color);
+}
+.address-list {
+    font-style: normal;
 }
 /* Hero */
 .hero-section {
@@ -71,6 +75,7 @@ body {
 }
 .hero-btn {
     font-family: inherit;
+    font-weight: 500;
     font-size: 16px;
     line-height: calc(24 / 16);
     letter-spacing: 0.04em;
@@ -90,8 +95,10 @@ body {
 /* advantages section */
 .section-title {
     font-size: 36px;
-    line-height: calc(40 / 36);
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: var(--secondary-text-color);
 }
 .list-title {
